@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #dbe4f6;
+    --dark-blue: #0b1e44;
+    --very-dark-blue: #010e25;
+    --black: black;
+    --light-blue-text: #eef2fa;
+    --blue-inputs: #3d5a98;
+    --blue-buttons: #caeff6;
+    --grey-buttons-inputs-border: #eef2fa81;
+    --bg-color2: #242c5929;
+    --border-bg-color2: 2px solid #242c595f;
+    --black-privacy-text: #0e0d0d;
+    --alt-black: #121212;
+}
+
+body {
+    background-color: var(--bg-color);
+    min-height: 100vh;
+    position: relative;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+#app {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#app::-webkit-scrollbar {
+    display: none;
+}
+
+.RouterLink {
+    text-decoration: none;
+}
+
+.todo_mostrar_pregunta {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    cursor: pointer;
+}

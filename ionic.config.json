@@ -1,0 +1,7 @@
+{
+  "name": "gymbroszone",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}

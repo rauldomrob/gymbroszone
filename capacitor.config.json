@@ -1,0 +1,8 @@
+{
+  "appId": "com.gymbroszone",
+  "appName": "gymbroszone",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}
